@@ -42,6 +42,8 @@ echo "
 ";
 ?>
 
+<h3> 4 Screenshot of the development environment</h3>
+<img src="picture.png" alt="my picture">
 
 <?php include "footer.php" ?>
 
