@@ -8,7 +8,7 @@
 
 </p>
 
-
+<p>lorem</p>
 
 
 <?php include "footer.php" ?>
