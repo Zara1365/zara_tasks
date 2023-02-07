@@ -26,22 +26,42 @@
     <div class="col">
 
 
- <input type="text" name= "birth date" required placeholder="birth date " class="form-control">
+ <input type="text" name= "Birth date" required placeholder="Birth date " class="form-control">
 </div>
 
 <div class="col">
-<input type="text"  name="select fav color" required placeholder="select fav color" class="form-control"> 
+<input type="text"  name="Select fav color" required placeholder="Select fav color" class="form-control"> 
 </div>
 
 </div>
 
+<h3> 3. Prepare a simple html table and apply bootstrap style to the table </h3>
+<?php
+$g1 =5;
+$g2 =5;
+$g3 =5;
+echo "
+<table>
+<tr>
+<th> s.N. </th><th> Name </th><th> Grade</th>
+</tr>
+<tr>
+<td> 1 </td><td> Roham Zahedi</td><td> $g1 </td>
+</tr>
+<tr>
+<td> 2 </td><td> Maryam Mazaheri </td><td> $g2 </td>
+</tr>
+<tr>
+<td> 2 </td><td> Nazi Rahnama </td><td> $g3 </td>
+</tr>
+</table>
+";
+?>
 
 
 
 
-Birth Date: <input type="date" name="bdate"> <br>
-select fav color: <input type="color" name="color"> <br>
-<input type="submit" value="submit">
+
 
 
 
