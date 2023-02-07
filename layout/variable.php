@@ -36,49 +36,66 @@
 </div>
 
 <h3> 3. Prepare a simple html table and apply bootstrap style to the table </h3>
-<?php
-$g1 =5;
-$g2 =5;
-$g3 =5;
-echo "
-<table>
-<tr>
-<th> s.N. </th><th> Name </th><th> Grade</th>
-</tr>
-<tr>
-<td> 1 </td><td> Roham Zahedi</td><td> $g1 </td>
-</tr>
-<tr>
-<td> 2 </td><td> Maryam Mazaheri </td><td> $g2 </td>
-</tr>
-<tr>
-<td> 2 </td><td> Nazi Rahnama </td><td> $g3 </td>
-</tr>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Nickname</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Roham</td>
+      <td>Zahedi</td>
+      <td>@Roham</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Maryam</td>
+      <td>Mazaheri</td>
+      <td>@Mari</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Zahra</td>
+      <td>Hamidi</td>
+      <td>@Zara</td>
+    </tr>
+  </tbody>
 </table>
-";
-?>
+
 <h3> 4. Write a PHP script with two string variables</h3>
+
 <?php
- 
- // First String
- $a = 'Historical';
-  
- // Second String
- $b = ' Place Of Finland!';
-  
- // Concatenation Of String
- $c = $a.$b;
-  
- // print Concatenate String
- echo " $c \n";
- ?>
+$fname = "Historical Place Of ";
+$lname = "Finland!";
+echo $fname . "  " . $lname . "<br>";
+echo strlen($fname) + strlen($lname) ."<br>";
+?>
 
+<h3> 5.Use variables to store these numbers and echo statement to output your answer.
+ </h3>
 
+ <?php
+$num1 = 298;
+$num2 = 234;
+$num3 = 46;
 
+$sum = $num1+$num2+$num3;
+echo $num1."+".$num2."+".$num3."=". $sum ."<br>";
+?>
 
+<br>
+<h3> 6.Write a PHP script to detect the browser being used. </h3>
 
+<?php
+echo $_SERVER['HTTP_USER_AGENT'] ."<br>";
+?>
 
-
+</div>
 
 </form>
 
