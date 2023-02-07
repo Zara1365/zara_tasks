@@ -57,6 +57,21 @@ echo "
 </table>
 ";
 ?>
+<h3> 4. Write a PHP script with two string variables</h3>
+<?php
+ 
+ // First String
+ $a = 'Historical';
+  
+ // Second String
+ $b = ' Place Of Finland!';
+  
+ // Concatenation Of String
+ $c = $a.$b;
+  
+ // print Concatenate String
+ echo " $c \n";
+ ?>
 
 
 
