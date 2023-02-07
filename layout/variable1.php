@@ -99,4 +99,10 @@ echo $_SERVER['HTTP_USER_AGENT'] ."<br>";
 
 </form>
 
+
+
+
+
+
+
 <?php include "footer.php" ?>
