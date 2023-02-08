@@ -37,18 +37,28 @@
    
   }
 ?> <br>
+<h2>3) Write a program to grade students based on their total score </h2>
+<?php 
+$grade=86;
+if ($grade >=80 && $grade <=100) {
+echo "The grade is Excellent";
+}elseif($grade < 80 && $grade >=70) {
+    echo "The grade is great";
+}
+elseif($grade < 70 && $grade >=60) {
+    echo "The grade is good";
+}
+elseif($grade < 60 && $grade >=50) {
+    echo "The grade is pass";
+}
+elseif($grade < 50 ) {
+    echo "Failed";
+} else {
+echo "your grade is not ok,its has a probem please try again";
 
-
-
-
-
-
-
-
-
-
-
-
+}
+?> 
+<h2>3) Write a program to grade students based on their total score </h2>
 
 
 
