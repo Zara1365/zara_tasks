@@ -58,8 +58,14 @@ echo "your grade is not ok,its has a probem please try again";
 
 }
 ?> 
-<h2>3) Write a program to grade students based on their total score </h2>
+<h2>4) Write a program to get inputs (age and name) from the use</h2>
+<form action="action2.php" method="post">
 
+<input type="text" name= "fname" required placeholder="first name" class="form-control">
+<input type="number" name= "age" required placeholder="age" class="form-control">
+<input type="submit" value="submit" >
+
+</form>
 
 
 
@@ -68,3 +74,4 @@ echo "your grade is not ok,its has a probem please try again";
 
 
 <?php include "footer.php" ?>
+
