@@ -65,7 +65,32 @@ echo "your grade is not ok,its has a probem please try again";
 <input type="number" name= "age" required placeholder="age" class="form-control">
 <input type="submit" value="submit" >
 
+
+
+
+
 </form>
+<h2>5) get the browser name. </h2>
+<?php 
+$httpuser = $_SERVER['HTTP_USER_AGENT'];
+
+switch ($httpuser) 
+{
+case strpos($httpuser, "Edg") == true;
+    echo "<br> You are using Microsoft Edge";
+break;
+
+case strpos($httpuser, "Chrome") == true;
+    echo "<br> You are using Goolge Chrome";
+break;
+
+case strpos($httpuser, "Firefox") == true;
+    echo "<br> You are using Mozila Firefox";
+break;
+}
+?>
+
+
 
 
 
