@@ -51,14 +51,15 @@ echo "$c, ";
 <h2>3)b)ascending order sort by Key  </h2>
 
 <?php
-  $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
-ksort($courses3);  
-foreach( $courses3 as $c )    
-{    
-  echo "$<br />";    
-}    
+$courses3=array(1=> "PHP", 2=> "HTML",3=> "JavaScript", 4=>"CMS",5=> "Project");
+ ksort($courses3);
+ foreach ($courses3 as $c)
+ {
+ echo "$c, ";
+ }
 ?>
-<h2>3)c)ascending order sort by Key  </h2>
+
+
 
 
 
