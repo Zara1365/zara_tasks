@@ -25,7 +25,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="ex1.php">Home</a>
+          <a class="nav-link" aria-current="page" href="">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="ex1.php">Exercise 1</a>
