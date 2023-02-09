@@ -58,6 +58,30 @@ $courses3=array(1=> "PHP", 2=> "HTML",3=> "JavaScript", 4=>"CMS",5=> "Project");
  echo "$c, ";
  }
 ?>
+<h2>3)c) descending order sort by Value </h2>
+
+<?php
+$courses3=array(1=> "PHP", 2=> "HTML",3=> "JavaScript", 4=>"CMS",5=> "Project");
+arsort($courses3);
+foreach ($courses3 as $c)
+{
+echo "$c, ";
+}
+
+?>
+<h2>3)d) descending order sort by Key </h2>
+
+
+<?php
+$courses3=array(1=> "PHP", 2=> "HTML",3=> "JavaScript", 4=>"CMS",5=> "Project");
+krsort($courses3);
+foreach ($courses3 as $c)
+{
+echo "$c, ";
+}
+?>
+<h2>3) Change the following array's all values to upper case</h2>
+
 
 
 
