@@ -88,29 +88,16 @@ print_r(array_change_key_case($courses4,CASE_UPPER));
 <h2>5)List all your favorite colors and their hexadecimal equivalents</h2>
 
 <?php
-
-$colors = array(
-    "red" => "#ff0000",
-    "green" => "#00ff00",
-    "blue" => "#0000ff",
-    "yellow" => "#ffff00",
-    "purple" => "#800080",
-    "pink" => "#ffc0cb",
-    "orange" => "#ffa500",
-    "black" => "#000000",
-    "white" => "#ffffff",
-    "gray" => "#808080"
-  );
-  
-  $keys = array_keys($colors);
-  
-   {
-      echo $keys[$i] . ": " . $colors[$keys[$i]] . "<br>";
-  }
-
-
-
+$arrColors = array(
+  'purpel'=>'ff0000',
+  'black'=>'00ff00',
+  'gray'=>'0000ff',
+  'red'=>'ffff00'
+);
+ 
+foreach($arrColors as $key=>$val) {
+  echo ' '.$key.' - '.$val.'<br>';
+}
 ?>
-
 
 <?php include "footer.php" ?>
