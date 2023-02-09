@@ -15,6 +15,8 @@ echo "<li>$c</li>";
 }
 echo "</ul>";
 ?>
+<h2>2)The unset() function is used to remove element from the array</h2>
+
 
 
 
