@@ -80,16 +80,37 @@ foreach ($courses3 as $c)
 echo "$c, ";
 }
 ?>
-<h2>3) Change the following array's all values to upper case</h2>
+<h2>4) Change the following array's all values to upper case</h2>
+<?php
+$courses4=array("php"=>1,"html"=>2,"javascript"=>3,"cms"=>4,"project"=>5);
+print_r(array_change_key_case($courses4,CASE_UPPER));
+?>
+<h2>5)List all your favorite colors and their hexadecimal equivalents</h2>
+
+<?php
+
+$colors = array(
+    "red" => "#ff0000",
+    "green" => "#00ff00",
+    "blue" => "#0000ff",
+    "yellow" => "#ffff00",
+    "purple" => "#800080",
+    "pink" => "#ffc0cb",
+    "orange" => "#ffa500",
+    "black" => "#000000",
+    "white" => "#ffffff",
+    "gray" => "#808080"
+  );
+  
+  $keys = array_keys($colors);
+  
+   {
+      echo $keys[$i] . ": " . $colors[$keys[$i]] . "<br>";
+  }
 
 
 
-
-
-
-
-
-
+?>
 
 
 <?php include "footer.php" ?>
