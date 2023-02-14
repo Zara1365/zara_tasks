@@ -89,7 +89,7 @@ print_r(array_change_key_case($courses4,CASE_UPPER));
 
 <?php
 $arrColors = array(
-  'purpel'=>'ff0000',
+  'purple'=>'ff0000',
   'black'=>'00ff00',
   'gray'=>'0000ff',
   'red'=>'ffff00'
