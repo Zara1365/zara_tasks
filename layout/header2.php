@@ -30,7 +30,7 @@
             <a class="nav-link" href="menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="ex1.php">Excersize 2</a>
+            <a class="nav-link" href="ex1.php">Exercise 2</a>
           </li>
           <li class="nav-item">
           </li>

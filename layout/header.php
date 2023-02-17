@@ -30,9 +30,16 @@
         <li class="nav-item">
           <a class="nav-link" href="../layout/ex1.php">Exercise 1</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../layout/header2.php">Exercise 2</a>
+        </li>
+
+
         <li class="nav-item">
           <a class="nav-link" href="../layout/variable.php">Exercise 3</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="../layout/controlflow.php">Exercise 4</a>
         </li>
