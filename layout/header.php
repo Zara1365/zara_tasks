@@ -12,6 +12,8 @@
     color: red;
 }
     </style>
+
+    <script src="../layout/site.js"> </script>
 </head>
 <body>
   <div class="container" >
@@ -53,6 +55,11 @@
         <li class="nav-item">
           <a class="nav-link" href="../crud1/read.php">update-delete</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../layout/jsinclass.php">java</a>
+        </li>
+
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
